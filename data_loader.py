@@ -5,5 +5,5 @@ file_url = f"https://drive.google.com/uc?id={file_id}"
 
 raw_data = pd.read_csv(file_url)     # читаем файл
 
+print(raw_data.head(10))
 
-raw_data.head(10)

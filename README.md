@@ -15,7 +15,6 @@ poetry run python data_loader.py
 # Результат
 <img width="1673" height="304" alt="Result" src="https://github.com/user-attachments/assets/dd3caa93-062a-44dc-8b79-edcfcf8f3098" />
 
-## Процесс приведения типов для DataFrame лежит в файле data_loader.py
 # Анализ данных
 <img width="559" height="501" alt="image (7)" src="https://github.com/user-attachments/assets/5eafbd04-9fa9-4e46-828e-4b2467e8c8a1" />
 
@@ -27,5 +26,6 @@ poetry run python data_loader.py
 - Столбцы, содержащие только значения 1 и 0, приведены к булевому типу.
 - Столбцы с 2-3 уникальными значениями преобразованы в категориальный тип (category).
 
+### *Процесс приведения типов для DataFrame лежит в файле data_loader.py*
 
 

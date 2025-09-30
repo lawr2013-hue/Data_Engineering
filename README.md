@@ -3,3 +3,4 @@
 https://www.kaggle.com/datasets/rashadrmammadov/heart-disease-prediction/data
 # Набор данных, дублированный на Гугл диск
 https://drive.google.com/file/d/19T-Gm5Dovnae7htHjJP2gUt3Tyl6NPp2/view?usp=sharing
+<img width="1673" height="304" alt="Result" src="https://github.com/user-attachments/assets/dd3caa93-062a-44dc-8b79-edcfcf8f3098" />

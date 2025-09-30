@@ -3,12 +3,12 @@
 https://www.kaggle.com/datasets/rashadrmammadov/heart-disease-prediction/data
 # Набор данных, дублированный на Гугл диск
 https://drive.google.com/file/d/19T-Gm5Dovnae7htHjJP2gUt3Tyl6NPp2/view?usp=sharing
-# Как воспользоваться?
-Создайте conda окружение:
+## Как воспользоваться?
+1. Создайте conda окружение:
 conda env create -f environment.yml
-Активировать conda окружение:
+2. Активировать conda окружение:
 conda activate my_env
-Запустите скрипт: data_loader.py:
+3. Запустите скрипт: data_loader.py:
 poetry run python data_loader.py
 
 

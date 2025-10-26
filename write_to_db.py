@@ -14,11 +14,11 @@ dbname = os.getenv('DB_NAME')
 connection_string = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}"
 engine = create_engine(connection_string)
 
-
-df = pd.read_csv('my_project/processed_dataset.csv')  
+df = pd.read_parquet('processed_dataset.parquet')
 
 table_name = 'lavrinenko'
 
 data_to_write = df.head(50)
 data_to_write.to_sql(name=table_name, con=engine, schema='public', if_exists='replace', index=False)
+
 print(f"Записано {len(data_to_write)} строк в таблицу '{table_name}' базы {dbname}.")

@@ -65,11 +65,11 @@ python etl/main.py --table-name lavrinenko
 
 Качество: удалены дубликаты и некорректные записи
 
-**Анализ данных:**
-(https://github.com/user-attachments/assets/5eafbd04-9fa9-4e46-828e-4b2467e8c8a1)
+**Анализ данных**  
+<img src="https://github.com/user-attachments/assets/5eafbd04-9fa9-4e46-828e-4b2467e8c8a1" width="500">
 
-**Данные после обработки:**
-(https://github.com/user-attachments/assets/be0a5079-caf6-457f-b8b7-f3d5717affc9)
+**Данные после обработки**  
+<img src="https://github.com/user-attachments/assets/be0a5079-caf6-457f-b8b7-f3d5717affc9" width="500">
 
 ## 📊 EDA (Exploratory Data Analysis)
 [EDA](https://github.com/lawr2013-hue/Data_Engineering/blob/main/notebook/EDA_Heart_Disease.ipynb)
